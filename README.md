@@ -14,9 +14,9 @@ Un simple robot Discord pour commencer à développer le sien. Développé sous 
 
 ### Contribute
 
-Contributions are always welcome!
-Please read the [contribution guidelines](contributing.md) first.
+Les contributions sont toujours les bienvenues !
+Lisez [les règles  pour les contributions](contributing.md) avant de pouvoir y participer.
 
 ### License
 
-[Apache License](LICENSE)
+Sous la license "[Apache License](LICENSE)"
