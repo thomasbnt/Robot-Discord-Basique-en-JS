@@ -6,6 +6,11 @@ var prefix = '?';
 
 client.on("message", message => {
 
+  // Le robot lui répondra pong en le mentionnant si il envoie "ping"
+  if (message.content === "reply"){
+    // le robot répond "@auteur#1234, Salut l'ami !"
+    message.reply("Salut l'ami !");
+  };
   // Le robot lui répondra pong si il envoie "ping"
   if (message.content === "ping"){
     // le robot répond "Pong !"
