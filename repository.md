@@ -3,7 +3,6 @@
 ```
 
 ```
-
 # Robot Discord Basique en JS
 
 Un simple robot Discord pour commencer à développer le sien. Développé sous Javascript et NodeJS.
@@ -24,7 +23,6 @@ Lisez [les règles  pour les contributions](contributing.md) avant de pouvoir y 
 ### License
 
 Sous la license "[Apache License](LICENSE)"
-
 ```
 
 
