@@ -1,7 +1,7 @@
 # Summary
 
-* [Repository](repository.md)
-* [Introduction](README.md)
+* [Repository](README.md)
+* [Introduction](introduction.md)
 * Les prérequis
   * [Un compte pour le bot](prerequis/botaccount.md)
   * [Commencer sur Windows](prerequis/startWindows.md)
