@@ -24,10 +24,14 @@ client.on("message", message => {
   if (message.content == "mp"){
     message.author.send("voici un message privé !")
   };
-   // Le robot lui répondra ceci si un utilisateur envoie "?avatar"
+  // Le robot lui répondra ceci si un utilisateur envoie "?avatar"
   if (message.content.startsWith(prefix + "avatar")) {
     message.channel.send(message.author.avatarURL);
   };
+  // Le robot lui répondra avec une réaction dès que ce mot est inclu dans le message de l'utilisateur
+  if (message.content.includes("hey")) {
+    message.react('👋');
+  }
 
 })
 client.login("VOTRE TOKEN ICI SANS ESPACE");
